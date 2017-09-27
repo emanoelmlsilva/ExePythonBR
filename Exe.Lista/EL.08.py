@@ -2,7 +2,7 @@ lista = list(range(5))
 id = []
 alt = []
 
-for i in range(5):
+for i in range(len(lista)):
 	print('pessoa {}'.format(i+1))
 	idade = int(input('Digite a idade: '))
 	id.append(idade)
@@ -21,11 +21,3 @@ print('altura: {}'.format(alt))
 #print('altura: {}'.format(alt[::-1]))
 ## ou tambem x = lis(id[::-1]
 
-"""id = list(range(5))
-alt = list(range(5))
-i=4
-while i >= 0:
-	print('Pessoa {}'.format(i+1))
-	print('idade: {}'.format(id[i]))
-	print('altura: {}'.format(alt[i]))
-	i-=1"""
