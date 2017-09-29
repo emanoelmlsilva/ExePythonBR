@@ -3,14 +3,14 @@ cont = 0
 v = []
 soma = 0
 conts = 0
+nota = int(input("Digte a nota: "))
 while nota != -1:
 	nota = int(input('Digite a nota '))
-	if nota != -1:
-		v.append(nota)
-		soma += nota
-		cont += 1
-		if nota < 7:
-			conts += 1
+	v.append(nota)
+	soma += nota
+	cont += 1
+	if nota < 7:
+		conts += 1
 
 print('A. Quantidade de valores lidos foram {} '.format(cont))
 print('B. Ordem que foram informados {} '.format(v))
